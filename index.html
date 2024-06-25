@@ -1,61 +1,241 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/icons.css"
+      rel="stylesheet"
+    />
+    <script src="app.js" type="module" defer ></script>
     <title>INTERIOR</title>
   </head>
   <body>
+
+    <div class="scroll-tracker"></div>
     <header>
-      <nav class="menu">
-        <ul class="list">
-          <li>
-            <a href="#" alt="header title">Interior Design</a>
-          </li>
-          <li>
-            <a href="#" alt="header title">About Us</a>
-          </li>
-          <li>
-            <a href="#" alt="header title">Service</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="header">
+        <div class="left-side">
+          <p><a href="#">Home</a></p>
+          <p><a href="./public/aboutus.html"> About Us</a></p>
+        </div>
+
+        <div class="title">
+          <p><span class="italicize">lulu</span> INTERIORS</p>
+        </div>
+        <div class="right-side">
+          <p><a href="./public/portofolio.html">Portofolio</a></p>
+          <p><a href="#contact">Contact</a></p>
+        </div>
+      </div>
     </header>
 
     <main>
-      <section class="main-part">
-        <div class="main-text"><h2>A Place That Feels Like Home</h2></div>
-        <img class="main-photo" src="Dining-02.jpeg" alt="living-room" />
+      <section class="scroll-reveal">
+        <div class="main-photo">
+          <img src="\img\header-img.PNG" alt="living-room" />
+        </div>
+
+        <div class="main-quotes">
+          <h2 class="quote1"><span>Creating unique spaces to live, work and play</span></h2>
+          <hr class="underline" />
+          <p class="quote2">
+            <span>At lulu Interior Design, we believe
+            in creating bespoke spaces that reflect the unique personalities and
+            lifestyles of our clients. From elegant residential interiors to
+            innovative commercial spaces, our team of experienced designers and
+            architects collaborates closely with each client to bring their
+            vision to life. Whether you're seeking a cozy retreat, a functional
+            workspace, or a vibrant entertainment area, we're dedicated to
+            turning your dreams into reality. Explore our portfolio and start
+            envisioning the possibilities for your own space today.</span>
+          </p>
+        </div>
       </section>
-      <section class="quote">
-        <h2>
-          “Your Home should tell the story of who you are, and be a Collection
-          of what you Love.”
-        </h2>
-        <footer>― Nate Berkus</footer>
-        <p class="p">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque alias,
-          mollitia esse cupiditate dolor officia voluptate reprehenderit nam
-          natus sit debitis totam eius eum vel sed excepturi quasi ab!
-          Laboriosam.
-        </p>
+      <script src="https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js"></script>
+      <section class="center-part">
+        <div class="left-part">
+          <div id="slideshow-example" data-component="slideshow">
+            <div role="list">
+              <div class="slide">
+                <img src="\img\bild8.jpeg" alt="" />
+              </div>
+              <div class="slide">
+                <img src="img/bild81.jpeg" alt="" />
+              </div>
+              <div class="slide">
+                <img src="img/bild82.jpeg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="text-container">
+            <p class="p-title">EXPLORE SERVICES</p>
+            <p class="p-subtitle">Property Styling</p>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis eveniet mollitia et maiores, rerum magnam quod ratione
+              quae! Voluptatem, dolore corporis accusamus eligendi itaque
+              officia! Doloremque nisi recusandae ex fuga. Lorem ipsum dolor
+              sit, amet consectetur adipisicing elit. Quibusdam voluptates
+              maiores quam nulla magni ut provident pariatur nemo nisi, numquam
+              a magnam praesentium assumenda?
+            </p>
+            <button class="button-part"><a href="https://www.mydomaine.com/decorating-tips-5199750">READ MORE</a></button>
+          </div>
+        </div>
+
+        <div class="right-part">
+          <div class="text-container">
+            <p class="p-title">EXPLORE SERVICES</p>
+            <p class="p-subtitle">Airbnb/Holiday Home Styling</p>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis eveniet mollitia et maiores, rerum magnam quod ratione
+              quae! Voluptatem, dolore corporis accusamus eligendi itaque
+              officia! Doloremque nisi recusandae ex fuga.<br /><br />
+              Minus maxime excepturi ea. Reiciendis dicta eius velit ab saepe
+              dolorum aut veritatis sit, incidunt corporis, omnis corrupti,
+              neque aperiam minima?
+            </p>
+            <button class="button-part"><a href="https://www.mydomaine.com/decorating-tips-5199750">READ MORE</a></button>
+          </div>
+          <div id="slideshow-example" data-component="slideshow">
+            <div role="list">
+              <div class="slide">
+                <img src="\img\img9.jpeg" alt="" />
+              </div>
+              <div class="slide">
+                <img src="img/img91.jpg" alt="" />
+              </div>
+              <div class="slide">
+                <img src="img/img92.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </section>
-      <section class="pictures">
-        <img src="img1.jpeg" alt="living-room" />
-        <img src="img2.jpeg" alt="interior" />
-        <img src="img3.jpeg" alt="bedroom" />
-        <img src="img5.jpeg" alt="bed" />
-        <img src="img6.jpeg" alt="bath" />
+      <section class="project-part">
+        <div class="p-text">
+          <p class="p-title">OUR WORK</p>
+          <p class="p-subtitle">VIEW PROJECTS</p>
+        </div>
+        <div class="p-projects">
+          <div class="project">
+            <a href="./public/projekt1.html">
+              <img class="project-image" src="\img\living-room.jpg" alt="Project 1" />
+            </a>
+            <div class="project-info">
+              <h4 class="project-title">Rye New York</h4>
+              <p class="project-description">
+                A modern update for an upstate lake house.
+              </p>
+              <p class="project-location">New York</p>
+            </div>
+          </div>
+          <div class="project">
+            <img class="project-image" src="\img\outside-look.jpg" alt="Project 2" />
+            <div class="project-info">
+              <h4 class="project-title">Los Angeles Loft</h4>
+              <p class="project-description">
+                Urban oasis in the heart of the city.
+              </p>
+              <p class="project-location">Los Angeles</p>
+            </div>
+          </div>
+          <div class="project">
+            <img class="project-image" src="\img\miami-beach.jpg" alt="Project 3" />
+            <div class="project-info">
+              <h4 class="project-title">Miami Beach House</h4>
+              <p class="project-description">Luxury living by the ocean.</p>
+              <p class="project-location">Miami</p>
+            </div>
+          </div>
+        </div>
       </section>
-      <section class="end">
-        <h2 class="end-text">
-          Are you ready to start your journey with us and make your Pinterest
-          <em>dream</em> a reality?
-        </h2>
-        <div class="contact">
-          <h3><a href="#" alt="contact ">Contact</a></h3>
+      <section id="contact-section">
+        <h3 id="contact-text">
+          Turn your <em>Pinterest</em> dream into reality
+        </h3>
+        <div class="wrapper">
+          <div class="contact-main">
+            <div class="contact-form">
+              <h3>GET IN TOUCH</h3>
+              <form>
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  class="form-control"
+                />
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  class="form-control"
+                />
+                <input
+                  type="text"
+                  placeholder="Email Address"
+                  class="form-control"
+                />
+                <textarea
+                  class="form-control"
+                  id="message"
+                  placeholder="Message"
+                  rows="2"
+                  required
+                ></textarea>
+                <button class="contact-button">Send</button>
+              </form>
+              
+            </div>
+
+            <div class="image-holder">
+              <img src="./img/probe1.jpg" alt="image" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="end">
+          <div id="contact">
+            <h4>About us</h4>
+            <h4>Contact</h4>
+            <h4>Portofolio</h4>
+            <h4>Career</h4>
+          </div>
+          <div class="icons">
+            <ul>
+              <li>
+                <a href="#">
+                  <img
+                    src=".\img\icons8-facebook-24.png"
+                    alt="Facebook"
+                    class="social-icon"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src=".\img\icons8-instagram-24.png"
+                    alt="Instagram"
+                    class="social-icon"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src=".\img\icons8-twitter-24.png"
+                    alt="Twitter"
+                    class="social-icon"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
